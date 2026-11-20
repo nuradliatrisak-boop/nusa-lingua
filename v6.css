@@ -1,0 +1,44 @@
+/* NUSA LINGUA V6 — Documentary / clean Batak Toba identity */
+:root{--nusa-wine:#872227;--nusa-rust:#a73532;--nusa-ivory:#fffaf3;--nusa-azure:#6a99ba;--nusa-ink:#332628}
+html{scroll-behavior:smooth}body{background:#fffaf6!important;color:#352b2b}
+.header{top:0!important;background:rgba(255,252,248,.93)!important;box-shadow:0 4px 25px #43171a13!important;border-bottom:1px solid #d9b6af!important}
+.brand img{mix-blend-mode:multiply;border-radius:10px;box-shadow:none!important;object-fit:contain!important}.brand b{color:#332428}
+.hero{background:#44546a!important;min-height:min(760px,86vh)}
+.hero-image{background-image:url('https://upload.wikimedia.org/wikipedia/commons/1/13/Pemandangan_Danau_Toba_yang_difoto_dari_Geosite_Sipinsure.jpg')!important;background-position:center 45%!important;background-size:cover!important;opacity:1!important;filter:saturate(1.1)}
+.hero-video{display:block!important;opacity:0!important;z-index:1!important;transition:opacity .9s!important;filter:saturate(1.05) contrast(1.04)!important;background:transparent!important}
+.hero.real-video-on .hero-video{opacity:1!important}.hero.has-video .hero-image{opacity:1!important}
+.hero-shade{background:linear-gradient(90deg,#1f2833dd 0%,#2d323dc4 40%,#1b303c34 82%),linear-gradient(0deg,#171e2a9e,transparent 60%)!important}
+.hero h1{max-width:850px}.hero-content>p{color:#f6f5f0!important}
+.hero-location{font-weight:700}
+.eyebrow{letter-spacing:1.8px}.hero .btn.primary,.btn.primary{background:#9c3034!important;color:#fff!important;box-shadow:0 12px 30px #38141b27!important}
+.feature-art.premium-visual{background-size:cover!important;background-position:center!important}
+.pv-map{background-image:url('https://upload.wikimedia.org/wikipedia/commons/1/13/Pemandangan_Danau_Toba_yang_difoto_dari_Geosite_Sipinsure.jpg')!important}
+.pv-lang{background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Traditional_Batak_houses.jpg?width=1100')!important}
+.pv-guide{background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Sumatra_Samosir_Island_old_Batak_village..jpg?width=1100')!important}
+.history-teaser-visual.premium-history-photo{background-image:url('https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Weaving_ulos_cloth.jpg/960px-Weaving_ulos_cloth.jpg')!important;background-position:center!important}
+.feature-card,.dest-card{box-shadow:0 16px 55px #57232211!important;border-radius:20px!important;transition:transform .35s,box-shadow .35s}
+.feature-card:hover,.dest-card:hover{transform:translateY(-8px)!important;box-shadow:0 26px 65px #57232226!important}
+.feature-art::after{background:linear-gradient(180deg,transparent 42%,#230d139f)!important}
+.feature-card .visual-symbol{background:#fff3!important;border:1px solid #fff7!important;padding:2px 14px;border-radius:20px;backdrop-filter:blur(8px);font-size:26px!important}
+.immersive-promo{background:linear-gradient(115deg,#fff9f2,#fff0e8)!important;border:1px solid #e2b9aa!important;position:relative}
+.immersive-promo:after{content:'';position:absolute;inset:0 0 0 auto;width:175px;opacity:.12;pointer-events:none;background:repeating-linear-gradient(45deg,transparent 0 16px,#942a31 16px 20px,transparent 20px 32px),repeating-linear-gradient(-45deg,transparent 0 16px,#942a31 16px 20px,transparent 20px 32px)}
+.quote-panel{background:radial-gradient(ellipse at 80% 15%,#a3423d 0%,#75232a 45%,#421b24 100%)!important;box-shadow:0 25px 70px #5d252e29!important;min-height:360px!important;overflow:hidden}
+.quote-panel:before,.quote-panel:after{height:16px!important;background:repeating-linear-gradient(90deg,#e9be84 0 9px,#872127 9px 18px,#fbf4e8 18px 23px,#382525 23px 30px)!important;opacity:.9}
+.quote-panel .motif-strip{opacity:.21!important;transform:rotate(7deg) scale(1.2);background:repeating-linear-gradient(45deg,transparent 0 22px,#f6dbc2 22px 25px,transparent 25px 35px),repeating-linear-gradient(-45deg,transparent 0 21px,#f6dbc2 21px 24px,transparent 24px 35px)}
+.quote-stamp{background:#fff6;border:1px solid #fff8;backdrop-filter:blur(14px)}.quote-stamp img{mix-blend-mode:multiply}
+.imm-stage{background:#353638!important}.imm-stage #immCanvas{display:none!important}.imm-motion-video{display:block!important;opacity:0!important;visibility:visible!important;transition:opacity .5s!important;z-index:1!important;background:transparent!important}.imm-motion-video.video-ready{opacity:1!important}
+.imm-stage-gradient{background:linear-gradient(180deg,#171a2377,transparent 38%,#1a1622d0 100%)!important;z-index:2!important}
+.imm-mode-switch{background:#31222b9c!important;top:25px!important;right:25px!important;border:1px solid #fff8!important;padding:9px 13px!important}
+.documentary-tag{color:#fff;font-size:10px;font-weight:800;letter-spacing:1.4px}
+.imm-stage-top{top:70px!important}.imm-overlay-label{top:115px!important}.imm-stage-bottom{z-index:5!important}.imm-stage .imm-subtitles{z-index:5!important}
+.imm-real-poster{position:absolute;inset:0;z-index:0;background:center/cover no-repeat;background-color:#443838;transition:background-image .3s}
+.imm-real-poster:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,#26192177,transparent 70%)}
+.imm-real-loading{position:absolute;z-index:5;top:50%;left:50%;transform:translate(-50%,-50%);background:#1d1628a8;color:#fff;font-size:12px;border:1px solid #fff4;border-radius:30px;padding:12px 19px;backdrop-filter:blur(15px);pointer-events:none}
+.imm-real-loading[hidden]{display:none}.imm-real-photo .imm-motion-video{display:none!important}.imm-real-photo .imm-real-poster{animation:documentary-pan 16s ease-in-out infinite alternate}
+@keyframes documentary-pan{from{background-size:cover;background-position:45% 50%}to{background-size:auto 115%;background-position:58% 50%}}
+.video-credit{color:#fff;font-size:11px;text-decoration:underline;text-underline-offset:3px;margin-right:10px}
+.imm-ethics{font-size:11px;line-height:1.6}.imm-panel h2{color:#65252c}
+.footer-brand img{mix-blend-mode:multiply}footer{background:#3b2026!important}footer .footer-brand img{mix-blend-mode:normal;background:#fff6ed;border-radius:9px;padding:3px}
+.nav-cta{background:#972d35!important}.mobile-menu{background:#fcf3ed!important}
+@media(max-width:800px){.header nav{top:72px!important;background:#fffaf7f2!important;border-color:#e4c2b8!important}.nav-backdrop.open{background:#351e2491!important}.hero{min-height:660px}.quote-panel{padding:42px 25px!important}.documentary-tag{font-size:8px}}
+@media(prefers-reduced-motion:reduce){.imm-real-photo .imm-real-poster{animation:none!important}.hero-video,.imm-motion-video{display:block!important}}

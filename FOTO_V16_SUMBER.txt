@@ -1,0 +1,5 @@
+Foto default offline: assets/editorial/heritage-journey-local.webp (pemrosesan ringan foto lokal proyek sebelumnya).
+Foto HD alternatif ketika tersedia jaringan: Huta Siallagan Batak Village.jpg, karya Ahanpranata, Wikimedia Commons, 4000x3000.
+Sumber: https://commons.wikimedia.org/wiki/File:Huta_Siallagan_Batak_Village.jpg
+Ikuti atribusi dan ketentuan lisensi pada halaman Wikimedia sebelum publikasi. Foto HD tidak termasuk dalam ZIP karena unduhan sumber eksternal tidak tersedia pada lingkungan pembuatan paket.
+Perubahan V16: hapus kartu duplikat 'Sebuah perjalanan, berlapis makna' dan ubah foto 'Perjalanan melintasi ruang & waktu' menjadi foto desa Batak.

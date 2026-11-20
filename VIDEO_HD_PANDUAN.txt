@@ -1,0 +1,16 @@
+NUSA LINGUA V22 — MEDIA HD
+
+PENTING: Bab 02, 03, dan 04 sudah dipulihkan dari BERKAS ORIGINAL FULL HD yang pengguna unggah sebelumnya. Video ini tidak diganti dengan rekaman baru, tetapi kini memakai resolusi originalnya (bukan hasil kompresi 960 piksel di versi sebelumnya).
+
+Bab 02: village.mp4 1920x882
+Bab 03: house.mp4 1920x848
+Bab 04: ulos.mp4 1920x1080
+Bab 01: toba.mp4 480x854 (versi lama)
+
+Untuk mengganti footage dengan hasil HD baru yang telah mendapat izin/lisensi penggunaan, taruh file MP4 H.264 + AAC (atau tanpa audio) bernama:
+  assets/documentary/village-hd.mp4
+  assets/documentary/house-hd.mp4
+  assets/documentary/ulos-hd.mp4
+Aplikasi otomatis memprioritaskan masing-masing file HD, dan bila belum ada tetap memutar file original lokal. Jangan sekadar mengubah nama ekstensi webm menjadi mp4.
+
+Pilih footage yang benar-benar berasal dari lokasi/kegiatan Batak Toba untuk informasi faktual museum. Periksa lisensi. Tidak ada video AI yang dihasilkan di paket ini.

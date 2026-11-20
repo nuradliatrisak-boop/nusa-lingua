@@ -1,0 +1,25 @@
+/* NUSA LINGUA V23 — focused editorial story CTA; no other pages changed */
+#immersive .heritage-story-note-v23{position:relative;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);gap:0;align-items:stretch;overflow:hidden;min-height:290px;margin:36px auto 48px;padding:0!important;border:1px solid rgba(150,81,75,.2);border-radius:24px;background:#fffaf6;box-shadow:0 18px 54px rgba(58,29,34,.07);isolation:isolate}
+#immersive .heritage-story-note-v23 .story-note-content{padding:42px 48px 38px;position:relative;z-index:2;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+#immersive .story-note-kicker{display:flex;align-items:center;flex-wrap:wrap;gap:10px;font-size:10px;letter-spacing:2px;font-weight:800;color:#9d343e}
+#immersive .story-note-line{display:block;width:28px;height:2px;background:#b88c64}
+#immersive .story-note-index{margin-left:10px;letter-spacing:1.1px;font-size:9px;color:#9b8981;font-weight:700}
+#immersive .heritage-story-note-v23 h3{font-family:'Playfair Display',Georgia,serif;font-size:clamp(29px,3.1vw,44px)!important;line-height:1.18;font-weight:500;letter-spacing:-.6px;margin:19px 0 12px;color:#312c2b}
+#immersive .heritage-story-note-v23 h3 em{font-weight:500;color:#9e303d}
+#immersive .heritage-story-note-v23 p{max-width:580px;color:#706763;font-size:13px;line-height:1.85;margin:0 0 23px}
+#immersive .story-note-actions{display:flex;flex-wrap:wrap;align-items:center;gap:19px}
+#immersive .heritage-story-note-v23 .story-note-cta{margin:0!important;border-radius:12px;background:#982c38;color:#fff;padding:14px 19px;display:inline-flex;justify-content:space-between;gap:22px;align-items:center;font-weight:700;box-shadow:0 9px 20px rgba(133,35,47,.18);transition:transform .22s,background .22s,box-shadow .22s}
+#immersive .story-note-cta:hover{transform:translateY(-3px);background:#7e222e;box-shadow:0 14px 26px rgba(133,35,47,.24)}
+#immersive .story-note-cta span{font-size:18px;transition:transform .22s}#immersive .story-note-cta:hover span{transform:translate(3px,-3px)}
+#immersive .story-note-meta{font-size:11px;color:#867b75;display:inline-flex;align-items:center;gap:8px}
+#immersive .story-note-pulse{height:7px;width:7px;border-radius:50%;background:#b4885d;box-shadow:0 0 0 4px rgba(180,136,93,.12)}
+#immersive .story-note-photo{position:relative;min-height:290px;background:linear-gradient(90deg,rgba(42,32,32,.08),rgba(31,25,23,.25)),url('assets/editorial/danau-toba.webp') center / cover no-repeat;overflow:hidden}
+#immersive .story-note-photo:after{content:'';position:absolute;inset:30% 0 0;background:linear-gradient(transparent,rgba(27,25,27,.6));pointer-events:none}
+#immersive .story-photo-caption{position:absolute;bottom:25px;right:27px;z-index:2;color:#fff;text-align:right;text-shadow:0 2px 7px #1118}
+#immersive .story-photo-caption span{font-size:9px;display:block;letter-spacing:2px;margin-bottom:5px;font-weight:700}
+#immersive .story-photo-caption strong{font-family:'Playfair Display',Georgia,serif;font-size:23px;font-weight:500}
+#immersive .story-note-corner{position:absolute;z-index:3;right:0;top:0;width:90px;height:90px;opacity:.3;pointer-events:none;background:repeating-linear-gradient(45deg,transparent 0 13px,#f6d2bb 14px 16px,transparent 17px 28px);clip-path:polygon(40% 0,100% 0,100% 100%)}
+body.night #immersive .heritage-story-note-v23{background:#29252a;border-color:rgba(248,218,198,.16)}body.night #immersive .heritage-story-note-v23 h3{color:#fff4eb!important}body.night #immersive .heritage-story-note-v23 h3 em{color:#f2b7a4!important}body.night #immersive .heritage-story-note-v23 p{color:#e1d0c7!important}body.night #immersive .story-note-index,body.night #immersive .story-note-meta{color:#dfbfb0!important}body.night #immersive .story-note-kicker{color:#f0baaa}
+@media(max-width:850px){#immersive .heritage-story-note-v23{grid-template-columns:1fr}#immersive .story-note-photo{min-height:225px;order:-1}#immersive .heritage-story-note-v23 .story-note-content{padding:30px 28px 35px}#immersive .story-note-index{margin-left:0}}
+@media(max-width:520px){#immersive .story-note-photo{min-height:195px}#immersive .heritage-story-note-v23 .story-note-content{padding:27px 22px 30px}#immersive .heritage-story-note-v23 h3{font-size:29px!important}#immersive .story-note-actions{gap:13px}#immersive .story-note-meta{font-size:10px}}
+@media(prefers-reduced-motion:reduce){#immersive .story-note-cta,#immersive .story-note-cta span{transition:none!important}}

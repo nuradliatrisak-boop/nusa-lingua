@@ -1,0 +1,5 @@
+/* V22: Full-HD footage in the original local media directory. */
+#immersive .imm-motion-video{filter:none!important;image-rendering:auto;transform:translateZ(0);}
+#immersive .imm-stage .imm-subtitles{max-width:min(82%,570px)!important;}
+#immersive .imm-real-poster{background-size:cover;}
+#immersive .film-retry:not([hidden]){z-index:25!important;display:block!important;cursor:pointer;}

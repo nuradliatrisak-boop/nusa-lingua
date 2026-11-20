@@ -1,0 +1,49 @@
+/* NUSA LINGUA V11 — editorial restoration / original imagery with tailored typography */
+:root{--heritage-wine:#922e38;--heritage-bone:#fff9f2}
+.header .brand b.brand-calligraphy,.footer-brand b.brand-calligraphy{font-family:'Cormorant Garamond','Palatino Linotype',Georgia,serif!important;font-size:clamp(21px,2vw,27px)!important;line-height:1!important;font-weight:600!important;letter-spacing:.05px!important;font-variant:normal!important;text-transform:none!important;color:#39292d!important}
+.header .brand b.brand-calligraphy em,.footer-brand b.brand-calligraphy em{color:#a3303b!important;font-weight:600!important;font-style:italic!important}
+.header .brand{min-width:218px!important;gap:11px!important}
+.header .brand small{font-size:9px!important;letter-spacing:1.25px!important}
+.header .navitem{font-family:'DM Sans',Arial,sans-serif!important;font-size:11.5px!important;letter-spacing:.13px!important;font-weight:600!important}
+.footer-brand b.brand-calligraphy{font-size:31px!important;color:#ffede6!important}
+.footer-brand b.brand-calligraphy em{color:#e5ada1!important}
+/* Remove system-native menu visuals; offer accessible clean toggle with visible state. */
+.nusa-native-language{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip-path:inset(50%)!important;opacity:0!important;pointer-events:none!important}
+.nusa-preferences{display:flex!important;gap:6px!important;align-items:center!important;padding:4px!important;border-radius:999px!important;background:#fffaf7c9!important;border:1px solid #dcc4bb!important}
+.language-switch{display:flex;align-items:center;gap:2px;background:#f5ebe5;border-radius:99px;padding:3px}
+.language-switch .lang-option{width:38px;height:31px;border:0;display:grid;place-items:center;border-radius:99px;background:transparent;color:#856963;font-size:11px;font-weight:800;letter-spacing:.7px;transition:background .2s,color .2s}
+.language-switch .lang-option.active{background:#8e303a;color:white;box-shadow:0 2px 9px #742c3229}
+.language-switch .lang-option:not(.active):hover{background:#ead9cf;color:#562c32}
+.nusa-preferences #themeSwitch{border:0!important;width:37px!important;height:37px!important;background:transparent!important;color:#64323d!important;font-size:20px!important}
+.nusa-preferences #themeSwitch:hover{background:#ebdfd8!important}
+/* The three home product cards use the user's approved photographic concept, never video frame grabs. */
+.pv-map{background-image:url('assets/photos/toba.webp')!important}
+.pv-lang{background-image:url('assets/photos/house.webp')!important}
+.pv-guide{background-image:url('assets/editorial/original-guide.webp')!important;background-position:center 34%!important}
+.history-teaser-visual.premium-history-photo{background-image:url('assets/editorial/penenun-ulos.webp')!important}
+.feature-art .photo-chip{font-family:'DM Sans',sans-serif!important;border-radius:7px!important;padding:11px 15px!important}
+.feature-card{box-shadow:0 16px 38px #46252610!important}
+.feature-body h3{font-size:26px!important;letter-spacing:-.4px!important}
+/* The original image cards remain distinct, with authentic documentary photography. */
+.dest-image{background-position:center!important}
+.dest-card{box-shadow:0 11px 29px #6b4b3610!important}
+/* Replace geometric illustration with actual image of a traditional weaving activity. */
+.heritage-photo-frame{background:#322a26 url('assets/editorial/penenun-ulos.webp') center 48%/cover no-repeat!important;min-height:290px!important;align-items:stretch!important;justify-content:end!important;padding:20px!important}
+.heritage-photo-frame::before{content:''!important;position:absolute!important;inset:0!important;background:linear-gradient(0deg,#101b1bc9,transparent 67%)!important;opacity:1!important}
+.heritage-photo-frame:after{display:none!important}
+.heritage-photo-caption{position:relative;color:#fff!important;font-weight:750;font-size:11px;letter-spacing:1.4px;display:flex;align-items:center;justify-content:space-between;gap:8px;z-index:2}
+.heritage-photo-caption span{font-size:23px}
+/* Use crisp landscape photo with gently moving camera, not 480px portrait blown up to 1920px. */
+@media(min-width:851px){.hero .hero-video{display:none!important}.hero .hero-image{opacity:1!important;background:url('assets/photos/toba.webp') center 49%/cover!important;animation:nusaSlowPan 23s ease-in-out infinite alternate;transform-origin:center center}.hero .hero-shade{background:linear-gradient(90deg,#111928e8 0%,#132235ad 40%,#16233420 92%),linear-gradient(0deg,#171a2680,transparent 68%)!important}}
+@keyframes nusaSlowPan{from{transform:scale(1.04) translate3d(-.8%,0,0)}to{transform:scale(1.15) translate3d(1.1%,-.5%,0)}}
+body.night .header .brand b.brand-calligraphy,body.night .header .brand b.brand-calligraphy em{color:#ffe7da!important}
+body.night .footer-brand b.brand-calligraphy em{color:#ecc0a8!important}
+body.night .nusa-preferences{background:#3c3034!important;border-color:#796167!important}
+body.night .language-switch{background:#292429!important}
+body.night .language-switch .lang-option:not(.active){color:#f4d8cb!important}
+body.night .nusa-preferences #themeSwitch{color:#fff0df!important}
+body.night .heritage-motif-story{background:#32262a!important}
+/* Clear, non-clipped responsive controls. */
+@media(max-width:850px){.hero .hero-video{display:block!important}.header .brand{min-width:0!important}.header .brand b.brand-calligraphy{font-size:22px!important}}
+@media(max-width:600px){.header .brand b.brand-calligraphy{font-size:18px!important}.header .brand small{font-size:7px!important}.header{gap:5px!important}.language-switch .lang-option{width:30px;height:28px;font-size:10px}.nusa-preferences #themeSwitch{width:30px!important;height:30px!important}.nusa-preferences{padding:2px!important;gap:2px!important}.heritage-photo-frame{min-height:250px!important}.feature-art.premium-visual{height:230px!important}}
+@media(prefers-reduced-motion:reduce){.hero .hero-image{animation:none!important}}

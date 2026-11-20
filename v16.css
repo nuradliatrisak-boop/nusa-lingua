@@ -1,0 +1,14 @@
+/* V16 — Editorial cultural journey. Duplicate panel removed. */
+.history-teaser{margin-top:clamp(45px,6vw,82px)!important;grid-template-columns:1.06fr 1fr!important;gap:clamp(22px,5vw,68px)!important;align-items:center!important;padding:clamp(18px,2.6vw,36px)!important;background:#fffaf7!important;border:1px solid #eacfc2!important;box-shadow:0 20px 56px rgba(71,29,30,.05)!important}
+.history-teaser-visual.premium-history-photo{height:clamp(270px,28vw,370px)!important;background-image:url('assets/editorial/heritage-journey-local.webp')!important;background-position:center center!important;background-size:cover!important;border-radius:16px!important;filter:none!important;position:relative;isolation:isolate;transition:transform .45s ease, filter .45s ease!important}
+.history-teaser-visual.premium-history-photo::before{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,25,27,.7),transparent 48%);z-index:1;pointer-events:none}
+.history-teaser-visual .history-image-shade{background:none!important}
+.history-teaser-visual .history-picture-label{z-index:2!important;bottom:23px!important;left:24px!important;letter-spacing:.13em!important;text-shadow:0 2px 11px rgba(0,0,0,.4)}
+.history-teaser-visual .history-picture-label b{border-radius:50%;width:40px;height:40px;background:rgba(255,255,255,.2);display:grid;place-items:center;backdrop-filter:blur(7px)}
+.history-teaser:hover .history-teaser-visual{filter:saturate(1.05)!important}
+.history-teaser>div:last-child{padding-right:clamp(0px,2vw,25px)}
+.history-teaser h2{font-size:clamp(31px,3.7vw,53px)!important}
+.history-teaser p{font-size:clamp(13px,1.1vw,15px)!important}
+body.night .history-teaser{background:#2d2529!important;border-color:#64474b!important}
+body.night .history-teaser h2{color:#fff0e5!important}body.night .history-teaser p{color:#ddc9c1!important}
+@media(max-width:760px){.history-teaser{grid-template-columns:1fr!important;gap:12px!important;padding:15px!important}.history-teaser-visual.premium-history-photo{height:250px!important}.history-teaser>div:last-child{padding:18px 9px 12px!important}}

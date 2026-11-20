@@ -1,0 +1,17 @@
+{
+  "name": "nusa-lingua-prototype",
+  "version": "1.0.1",
+  "private": true,
+  "description": "NUSA LINGUA — prototype wisata budaya Batak Toba",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node check.js",
+    "banner:download": "node download-banner.js",
+    "story:photo:download": "node download-story-photo.js",
+    "textile:download": "node download-textile-images.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

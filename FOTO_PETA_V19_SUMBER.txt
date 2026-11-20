@@ -1,0 +1,12 @@
+NUSA TWIN — sumber foto yang dipilih untuk empat kartu sidebar
+
+Foto lokal cadangan disertakan dalam paket. Ketika online, aplikasi mencoba memuat foto HD dari Wikimedia Commons, khusus sidebar peta. Karena akses unduh langsung tidak tersedia di lingkungan pembuat, foto HD belum disertakan sebagai file lokal.
+
+Untuk penggunaan offline yang konsisten, unduh masing-masing sumber dari halaman Wikimedia Commons berikut, konversi ke WebP, dan tempatkan dengan nama persis berikut:
+
+assets/map-photos/siallagan.webp — https://commons.wikimedia.org/wiki/File:Huta_Siallagan,_a_traditional_Batak_village_located_around_Lake_Toba.jpg
+assets/map-photos/tomok.webp — https://commons.wikimedia.org/wiki/File:Old_Tomb_of_King_Sidabutar,_Samosir_1.jpg
+assets/map-photos/simanindo.webp — https://commons.wikimedia.org/wiki/File:Rumah_adat_bolon_di_Museum_Huta_Bolon_Simanindo.jpg
+assets/map-photos/ulos.webp — https://commons.wikimedia.org/wiki/File:Tenun_Ulos.jpg
+
+Periksa nama fotografer, lisensi, dan syarat atribusi di halaman masing-masing sumber sebelum publikasi.

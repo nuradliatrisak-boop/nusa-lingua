@@ -1,0 +1,31 @@
+/* V19 — NUSA TWIN: cultural destinations sidebar, polished independent mini cards */
+#peta .count-row{border-bottom:1px solid rgba(140,93,74,.18);padding-bottom:12px;margin-bottom:14px}
+#peta .count-row small{display:none!important}
+#peta .count-row b{font-size:12px;letter-spacing:.035em;color:#713b39}
+#peta .map-list{gap:13px;padding:3px 5px 15px 2px;scrollbar-width:thin;scrollbar-color:#c9a99b transparent}
+#peta .map-listitem{padding:8px;min-height:115px;border-radius:15px;border:1px solid rgba(159,100,77,.20);background:linear-gradient(135deg,#fffdfb,#faf4ed);box-shadow:0 5px 17px rgba(74,34,29,.045);gap:14px;align-items:stretch;position:relative;overflow:hidden;transition:background .28s,border-color .28s,box-shadow .28s,transform .28s}
+#peta .map-listitem:hover,#peta .map-listitem:focus-visible{background:#fff9f5;border-color:#bb8573;box-shadow:0 12px 30px rgba(97,48,40,.12);transform:translateY(-2px);outline:none}
+#peta .map-listitem:focus-visible{outline:2px solid #a94745;outline-offset:2px}
+#peta .map-card-photo{position:relative;flex:0 0 110px;min-height:108px;overflow:hidden;border-radius:10px;background:linear-gradient(140deg,#8e7a62,#d5c8b9)}
+#peta .map-listitem .map-card-photo img{width:100%;height:100%;min-height:108px;object-fit:cover;display:block;border:0;border-radius:0;transition:transform .55s cubic-bezier(.2,.7,.2,1),filter .4s;filter:saturate(1.08) contrast(1.04)}
+#peta .map-listitem:hover img{transform:scale(1.08);filter:saturate(1.15) contrast(1.05)}
+#peta .map-card-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,18,17,.16),transparent 48%,rgba(20,15,14,.2));pointer-events:none}
+#peta .map-card-index{position:absolute;top:8px;left:8px;color:#fff;background:rgba(46,32,29,.42);backdrop-filter:blur(9px);border:1px solid rgba(255,255,255,.35);border-radius:6px;padding:5px 7px;font-size:9px;font-weight:800;z-index:1;letter-spacing:1px}
+#peta .map-card-copy{display:flex;flex-direction:column;flex:1;min-width:0;padding:10px 4px 6px 0}
+#peta .map-listitem .map-card-copy small{font-size:9px;letter-spacing:1.45px;color:#a55e4b;font-weight:800}
+#peta .map-listitem .map-card-copy h4{font-family:var(--serif),Georgia,serif;font-size:clamp(15px,1.35vw,18px);line-height:1.26;letter-spacing:-.2px;color:#3d2b29;margin:7px 0 6px}
+#peta .map-listitem .map-card-copy p{font-size:10px;color:#82786f;line-height:1.45;margin:0 0 7px}
+#peta .map-card-cta{margin-top:auto;font-size:10px;font-weight:800;color:#8f3840;display:flex;align-items:center;justify-content:space-between;gap:6px}
+#peta .map-card-cta b{font-size:17px;line-height:1;transition:transform .3s}
+#peta .map-listitem:hover .map-card-cta b{transform:translate(2px,-2px)}
+#peta .map-listitem>span{display:none!important}
+body.night #peta .map-listitem{background:linear-gradient(130deg,#302a30,#28252b)!important;border-color:rgba(227,183,163,.26)!important;color:#fff}
+body.night #peta .map-listitem:hover{background:#3b3036!important;border-color:#bf8c7b!important}
+body.night #peta .map-card-copy h4{color:#f9e8dd!important}
+body.night #peta .map-card-copy p{color:#d3bfb5!important}
+body.night #peta .map-card-copy small{color:#f4b79f!important}
+body.night #peta .map-card-cta{color:#ffc2a4}
+body.night #peta .count-row b{color:#f2d8cf}
+@media(max-width:900px){#peta .map-listitem{min-height:104px}#peta .map-card-photo{flex-basis:105px;min-height:99px}}
+@media(max-width:520px){#peta .map-list{gap:11px}#peta .map-listitem{gap:12px}#peta .map-card-photo{flex-basis:100px;min-height:101px}}
+@media(prefers-reduced-motion:reduce){#peta .map-listitem,#peta .map-listitem img,#peta .map-card-cta b{transition:none!important}}

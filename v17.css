@@ -1,0 +1,27 @@
+/* V17 | Jejak Budaya Pilihan — photo-led editorial cards */
+#homeCards{gap:clamp(18px,2.1vw,30px);align-items:stretch}
+#homeCards .dest-card{position:relative;isolation:isolate;border:1px solid rgba(167,110,93,.21)!important;border-radius:23px!important;overflow:hidden;box-shadow:0 17px 48px rgba(95,46,38,.075)!important;background:#fffaf7!important;transition:transform .35s cubic-bezier(.2,.75,.2,1),box-shadow .35s,border-color .35s!important}
+#homeCards .dest-card:hover,#homeCards .dest-card:focus-within{transform:translateY(-7px)!important;box-shadow:0 27px 68px rgba(83,39,33,.18)!important;border-color:rgba(153,52,62,.48)!important}
+#homeCards .dest-image{height:clamp(230px,19vw,282px);background-position:center 48%!important;background-size:cover!important;overflow:hidden;transition:filter .5s;isolation:isolate}
+#homeCards .dest-image::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,20,23,.13) 0%,transparent 50%,rgba(11,22,24,.28) 100%);z-index:0;pointer-events:none}
+#homeCards .dest-image::after{content:"";position:absolute;inset:10px;border:1px solid rgba(255,255,255,.44);border-radius:10px;opacity:.48;pointer-events:none;transition:opacity .3s}
+#homeCards .dest-card:hover .dest-image::after{opacity:.94}
+#homeCards .category-tag{z-index:2;left:19px;top:20px;border:1px solid rgba(255,255,255,.76);background:rgba(255,253,249,.93);backdrop-filter:blur(10px);border-radius:8px;padding:10px 13px;color:#4a3934;font-weight:800;letter-spacing:1.2px;box-shadow:0 5px 22px #00000012}
+#homeCards .save-btn{z-index:2;top:17px;right:18px;width:43px;height:43px;background:rgba(255,255,255,.95);color:#6c3236;box-shadow:0 6px 25px #00000023;transition:transform .25s,background .25s;color-scheme:light}
+#homeCards .save-btn:hover{transform:scale(1.1);background:#fff}
+#homeCards .dest-body{padding:25px 25px 24px;position:relative;display:flex;flex-direction:column;min-height:245px}
+#homeCards .dest-body::before{content:"";position:absolute;top:0;left:25px;width:57px;height:3px;background:#a3383b;border-radius:0 0 3px 3px}
+#homeCards .dest-body h3{font-size:clamp(23px,2.05vw,29px);line-height:1.23;letter-spacing:-.6px;margin:5px 0 11px;color:#3a2928!important}
+#homeCards .dest-body p{font-size:12.5px;line-height:1.85;color:#756b65!important;min-height:0;flex:1;margin:0 0 22px}
+#homeCards .dest-footer{gap:9px;border-top:1px solid #e9dcd3;padding-top:17px;align-items:center}
+#homeCards .dest-footer>span{font-size:10.5px;line-height:1.5;color:#81756d}
+#homeCards .dest-footer>button{background:#f7ebe7;color:#8d3138;border:1px solid #efd9d1;padding:10px 15px;border-radius:999px;white-space:nowrap;transition:background .25s,color .25s,transform .25s}
+#homeCards .dest-footer>button:hover{background:#973238;color:#fff;transform:translateX(2px)}
+body.night #homeCards .dest-card{background:#2a252b!important;border-color:#614750!important}
+body.night #homeCards .dest-body h3{color:#f7e8dc!important}
+body.night #homeCards .dest-body p{color:#d4c6bb!important}
+body.night #homeCards .dest-footer{border-top-color:#5f4b4d}
+body.night #homeCards .dest-footer>span{color:#d1bfb2}
+body.night #homeCards .dest-footer>button{background:#59373e;color:#fff4ee;border-color:#79545b}
+@media(max-width:680px){#homeCards{gap:20px}#homeCards .dest-image{height:255px}#homeCards .dest-body{padding:24px;min-height:210px}#homeCards .dest-footer>button{padding:10px 13px}}
+@media(prefers-reduced-motion:reduce){#homeCards .dest-card,#homeCards .dest-image,#homeCards .dest-footer>button{transition:none!important}}

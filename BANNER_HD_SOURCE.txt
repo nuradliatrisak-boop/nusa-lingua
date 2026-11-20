@@ -1,0 +1,10 @@
+Banner: Lake Toba and the surrounding hills (photographed from Tele, Samosir)
+Author: Bisajunisa
+Source: https://commons.wikimedia.org/wiki/File:Lake_Toba_and_the_surrounding_hills.jpg
+License: Creative Commons Attribution-ShareAlike 4.0 International
+License URL: https://creativecommons.org/licenses/by-sa/4.0/
+Changes: cropped responsively and overlaid with a left-side gradient for legible text.
+
+The website displays a local fallback immediately; on internet connection it progressively loads the 3000x2000 image.
+For a fully offline HD banner, run `npm run banner:download` once while online.
+Other existing application images and videos are untouched.

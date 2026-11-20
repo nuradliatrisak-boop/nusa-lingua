@@ -1,0 +1,25 @@
+/* V12 — narrow-scope revisions only: language switch and home hero. */
+/* Camera motion & streaming are intentionally removed from the homepage. */
+.hero .hero-video{display:none!important;visibility:hidden!important;opacity:0!important}
+.hero .hero-image{
+  background-image:url('assets/editorial/danau-toba.webp')!important;
+  background-size:cover!important;
+  background-position:center 51%!important;
+  opacity:1!important;
+  filter:none!important;
+  animation:none!important;
+  transform:none!important;
+  transition:none!important;
+}
+.hero .hero-shade{
+  background:linear-gradient(90deg,rgba(13,24,35,.88) 0%,rgba(15,30,39,.64) 43%,rgba(18,36,40,.05) 100%),linear-gradient(0deg,rgba(10,25,34,.38),transparent 50%)!important;
+}
+/* The full-resolution landscape will be used only if it loads correctly. */
+.hero.hero-hd-ready .hero-image{background-image:url('https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Danau_Toba_dari_Samosir.jpg/1920px-Danau_Toba_dari_Samosir.jpg')!important}
+/* A compact single-piece pill, aligned with existing navbar height. */
+.header .nusa-preferences{display:inline-flex!important;align-items:center!important;gap:3px!important;padding:2px 4px!important;min-height:34px!important;height:34px!important;border-radius:999px!important;box-shadow:none!important;flex:none!important}
+.header .language-switch{display:flex!important;align-items:center!important;gap:1px!important;padding:0!important;border-radius:999px!important;background:transparent!important}
+.header .language-switch .lang-option{display:grid!important;place-items:center!important;min-width:27px!important;width:27px!important;min-height:27px!important;height:27px!important;padding:0!important;border:0!important;border-radius:50%!important;font-size:10px!important;letter-spacing:0!important;line-height:1!important;font-weight:700!important;box-shadow:none!important}
+.header .nusa-preferences #themeSwitch{display:grid!important;place-items:center!important;width:28px!important;height:28px!important;min-width:28px!important;min-height:28px!important;padding:0!important;margin:0!important;border-radius:50%!important;font-size:16px!important;line-height:1!important}
+@media(max-width:850px){.hero .hero-video{display:none!important}.hero .hero-image{background-size:cover!important;background-position:center!important}.header .nusa-preferences{height:32px!important;min-height:32px!important;padding:2px 3px!important}.header .language-switch .lang-option{height:26px!important;width:26px!important;min-height:26px!important;min-width:26px!important}.header .nusa-preferences #themeSwitch{height:26px!important;width:26px!important;min-height:26px!important;min-width:26px!important}}
+@media(max-width:520px){.header .nusa-preferences{gap:1px!important}.header .language-switch .lang-option{font-size:9px!important;width:24px!important;min-width:24px!important;height:24px!important;min-height:24px!important}.header .nusa-preferences #themeSwitch{width:24px!important;min-width:24px!important;height:24px!important;min-height:24px!important;font-size:14px!important}}

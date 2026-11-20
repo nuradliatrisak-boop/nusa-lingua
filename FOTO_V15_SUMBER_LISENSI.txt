@@ -1,0 +1,11 @@
+NUSA LINGUA — Card Foto HD V15
+
+Tiga kartu beranda menggunakan foto lokal sebagai fallback tanpa loading kosong. Ketika tersambung internet, browser mencoba memuat versi HD dari Wikimedia Commons (bukan aset lokal). Foto-foto HD tidak termasuk ZIP; jaringan perlu aktif untuk peningkatan foto.
+
+NUSA TWIN: “Danau Toba dari Samosir.jpg” — PL 05 SIGIT, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Danau_Toba_dari_Samosir.jpg
+LINGUA AI: “Jajaran Rumah Bolon di Huta Siallagan.jpg” — IHLubis, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Jajaran_Rumah_Bolon_di_Huta_Siallagan.jpg
+NUSA GUIDE: “Tari tradisi Batak di Huta Bolon, Simanindo, Samosir, Sumatra Utara.jpg” — Reskihasan, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Tari_tradisi_Batak_di_Huta_Bolon,_Simanindo,_Samosir,_Sumatra_Utara.jpg
+
+Ketiga foto dimuat/di-crop untuk komposisi antarmuka. Ikuti syarat atribusi dan ShareAlike dari lisensinya untuk penggunaan publik.
+
+Perubahan V15: hanya foto 3 kartu utama dan hapus tanda panah bundar di foto NUSA TWIN. Foto di bagian lain, hero, museum, navigasi, logo, dan fungsi JS tidak diubah.

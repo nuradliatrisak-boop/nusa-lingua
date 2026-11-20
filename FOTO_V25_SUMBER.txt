@@ -1,0 +1,11 @@
+Foto baru untuk card “Setiap kisah punya asal. Temukan tempatnya.”
+
+Judul: Lake Toba, Indonesia (Unsplash)
+Fotografer: Dio Nando Hasibuan
+Resolusi asli: 4357 x 2458 piksel
+Lisensi: CC0 1.0 (public domain dedication, tidak wajib atribusi; kredit tetap baik)
+Sumber: https://commons.wikimedia.org/wiki/File:Lake_Toba,_Indonesia_(Unsplash).jpg
+
+Secara default website menampilkan foto lama sesaat lalu mencoba versi HD lokal; jika belum diunduh, akan memuat versi HD dari Wikimedia.
+Untuk menyimpan gambar HD sebagai file lokal jalankan: npm run story:photo:download
+Bagian lain dari aplikasi V24 tidak diubah.

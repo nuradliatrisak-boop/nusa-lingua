@@ -1,0 +1,17 @@
+NUSA LINGUA — Photo credit and offline download instructions
+
+The three newly selected HD photos are served by Wikimedia Commons when online; this ZIP contains the original local fallback photos, NOT these HD files, because direct media download was unavailable. The photograph sources and Creative Commons license must be attributed if used.
+
+1. Huta Siallagan — Rumah Bolon.jpg — Nurul Ichlasiah (check license at source).
+https://commons.wikimedia.org/wiki/File:Rumah_Bolon.jpg
+Download Original file; rename siallagan.jpg and put it in assets/destinations/.
+
+2. Tomok — Old Tomb of King Sidabutar, Samosir 1.jpg — Lim Natee — CC BY-SA 4.0.
+https://commons.wikimedia.org/wiki/File:Old_Tomb_of_King_Sidabutar,_Samosir_1.jpg
+Download Original file; rename tomok.jpg and put it in assets/destinations/.
+
+3. Museum Huta Bolon Simanindo — Rumah Bolon Batak Toba di Museum Huta Bolon Simanindo.jpg — Lim Natee — CC BY-SA 4.0.
+https://commons.wikimedia.org/wiki/File:Rumah_Bolon_Batak_Toba_di_Museum_Huta_Bolon_Simanindo.jpg
+Download Original file; rename simanindo.jpg and put it in assets/destinations/.
+
+If a photo is cropped or recolored, indicate the modification in the required attribution.

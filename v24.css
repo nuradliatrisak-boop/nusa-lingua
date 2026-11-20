@@ -1,0 +1,61 @@
+/* NUSA LINGUA V24 — glass refinement for two existing core modules */
+.nusa-ui-icon{width:17px;height:17px;vertical-align:middle;flex:none;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+#lingua .translation-card,#guide .planner-card,#guide .itinerary-wrap{position:relative;isolation:isolate;overflow:hidden;border:1px solid rgba(175,122,99,.24)!important;border-radius:25px!important;background:linear-gradient(142deg,rgba(255,255,255,.91),rgba(255,250,247,.7) 60%,rgba(246,225,214,.48))!important;box-shadow:0 18px 58px rgba(75,36,38,.075),inset 0 1px rgba(255,255,255,.95)!important;backdrop-filter:blur(16px) saturate(1.12);-webkit-backdrop-filter:blur(16px)}
+#lingua .translation-card:before,#guide .planner-card:before,#guide .itinerary-wrap:before{content:"";position:absolute;right:-75px;top:-90px;width:260px;height:220px;border-radius:100%;background:radial-gradient(ellipse,rgba(255,255,255,.92),rgba(226,178,150,.12) 55%,transparent 72%);pointer-events:none;z-index:-1}
+#lingua .lingua-layout,#guide .guide-layout{gap:28px;align-items:start}
+#lingua .translation-card,#guide .planner-card,#guide .itinerary-wrap{padding:32px}
+#lingua .translator-title h3,#guide .planner-card h3,#guide .itinerary-head h3{font-weight:500;letter-spacing:-.7px}
+#lingua .language-pair select,#guide .full-select{background:rgba(255,255,255,.66)!important;border:1px solid rgba(162,120,103,.24)!important;border-radius:13px!important;color:#54393b!important;box-shadow:inset 0 1px 1px rgba(255,255,255,.8);padding:15px 12px!important}
+#lingua .language-pair select:focus,#guide .full-select:focus,#lingua textarea:focus{outline:2px solid rgba(157,43,54,.3);outline-offset:2px}
+#lingua .swap{width:46px;height:46px;border-radius:14px;background:linear-gradient(135deg,rgba(255,255,255,.95),rgba(236,208,190,.68));border:1px solid rgba(158,68,72,.2);box-shadow:0 5px 15px rgba(92,38,42,.09);display:grid;place-items:center;color:#962f3b;transition:transform .18s,box-shadow .18s}
+#lingua .swap svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+#lingua .swap:hover{transform:rotate(180deg);box-shadow:0 9px 20px rgba(92,38,42,.16)}
+#lingua .input-zone,#lingua .output-zone{border:1px solid rgba(168,118,107,.22)!important;border-radius:18px!important;background:linear-gradient(130deg,rgba(255,255,255,.86),rgba(254,247,242,.58))!important;box-shadow:inset 0 1px rgba(255,255,255,.98),0 8px 25px rgba(81,44,40,.035)}
+#lingua .input-zone textarea{background:transparent;color:#513739!important;max-width:100%}
+#lingua .input-tools button,#lingua .out-top button{display:inline-flex;align-items:center;gap:7px;color:#863741!important;padding:8px 10px;border-radius:10px;transition:background .2s}
+#lingua .input-tools button:hover,#lingua .out-top button:hover{background:rgba(159,45,55,.09)}
+#lingua .translate-btn,#guide #generatePlan{min-height:54px;border-radius:14px!important;background:linear-gradient(110deg,#88242f,#ad3d45 58%,#902d38)!important;box-shadow:0 12px 24px rgba(123,28,38,.17);transition:transform .2s,box-shadow .2s}
+#lingua .translate-btn:hover,#guide #generatePlan:hover{transform:translateY(-2px);box-shadow:0 16px 32px rgba(123,28,38,.23)}
+#lingua .phrase-sidebar{background:rgba(255,255,255,.38);border:1px solid rgba(170,114,102,.16);border-radius:24px;padding:27px!important;backdrop-filter:blur(12px)}
+#lingua .phrase-btn{border-radius:15px!important;background:rgba(255,255,255,.74)!important;border:1px solid rgba(178,124,105,.21)!important;box-shadow:inset 0 1px rgba(255,255,255,.9);transition:transform .18s,box-shadow .18s,border-color .18s}
+#lingua .phrase-btn:hover{transform:translateX(3px);border-color:rgba(156,52,59,.38)!important;box-shadow:0 9px 22px rgba(93,49,47,.08)}
+#lingua .cultural-caution{border-left:0!important;border:1px solid rgba(189,148,100,.26);border-radius:16px;background:rgba(248,232,210,.58)!important}
+#guide #dayChoices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+#guide #dayChoices .choice{min-width:0;border-radius:13px;padding:13px 6px;background:rgba(255,255,255,.7);border:1px solid rgba(170,119,103,.25);color:#624846;box-shadow:inset 0 1px rgba(255,255,255,.9);transition:transform .18s,background .18s}
+#guide #dayChoices .choice:hover{transform:translateY(-2px)}
+#guide #dayChoices .choice.active{background:linear-gradient(120deg,#862531,#a53a45)!important;color:#fff;border-color:#9c3440!important;box-shadow:0 8px 20px rgba(140,37,48,.18)}
+#guide .days-custom-label{grid-column:span 3;display:flex;align-items:center;gap:10px;justify-content:space-between;padding:11px 12px;border:1px solid rgba(170,119,103,.26);border-radius:13px;background:rgba(255,255,255,.64);font-size:12px;color:#704b49;font-weight:700;letter-spacing:0}
+#guide .days-custom-label span{font-size:10px;color:#a28e84;font-weight:500;margin-right:auto}
+#guide .days-custom-label input{min-width:0;width:112px;max-width:38%;padding:9px 11px;border:1px solid #e3c9bf;border-radius:9px;background:#fff;color:#612f37;font-size:12px;outline:none}
+#guide .days-custom-label.custom-active{border-color:#ac4653;background:#fff8f5;box-shadow:0 0 0 2px rgba(159,46,60,.08)}
+#guide #interestChoices .interest{border-radius:15px!important;border:1px solid rgba(170,119,103,.22)!important;background:rgba(255,255,255,.64)!important;color:#665151!important;min-height:72px;transition:transform .18s,box-shadow .18s}
+#guide #interestChoices .interest:hover{transform:translateY(-2px)}
+#guide #interestChoices .interest.selected{background:rgba(248,231,225,.87)!important;border-color:rgba(155,44,58,.51)!important;color:#812d39!important;box-shadow:0 6px 19px rgba(118,50,53,.07)}
+#guide .interest-icon{width:37px;height:37px;display:grid;place-items:center;border:1px solid rgba(163,60,68,.19);border-radius:12px;background:rgba(248,232,223,.9);flex:none}
+#guide .interest-icon svg{width:20px;height:20px;stroke:#9a3440;fill:none;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round}
+#guide .plan-placeholder{border-radius:18px!important;background:radial-gradient(circle at 50% 32%,rgba(255,255,255,.94),rgba(246,225,211,.59)),linear-gradient(120deg,rgba(172,69,75,.04),transparent)!important;border:1px solid rgba(162,110,95,.2)}
+#guide .plan-placeholder .plan-icon{overflow:hidden;width:95px;height:95px;border-radius:50%;box-shadow:0 13px 35px rgba(82,45,49,.15);display:block}
+#guide .plan-placeholder .plan-icon img{width:100%;height:100%;object-fit:cover}
+#guide .plan-actions button{display:inline-flex;align-items:center;gap:7px;border:1px solid rgba(167,114,99,.23);border-radius:12px;padding:12px 15px;background:rgba(255,255,255,.58);color:#8b3540}
+#guide .plan-actions button:hover{background:#fff0eb}
+#guide .day-group{padding:15px 17px;border:1px solid rgba(175,125,107,.23);background:rgba(255,255,255,.6);border-radius:16px;margin-bottom:12px}
+#guide .day-title{display:flex;align-items:center;justify-content:space-between;gap:9px;color:#602e37}
+#guide .day-badge{font:600 10px/1.4 var(--sans);color:#8d5c58;border-radius:100px;background:#f8e8df;padding:6px 10px}
+#guide .plan-summary{display:flex;flex-direction:column;gap:5px;background:linear-gradient(120deg,#8c2b38,#ad4a50);padding:22px;border-radius:17px;color:#fff;margin-bottom:15px}
+#guide .plan-summary>span{font-size:10px;letter-spacing:1.6px;font-weight:800;color:#ffe1cc}
+#guide .plan-summary>strong{font-family:var(--serif);font-size:24px;font-weight:500}
+#guide .plan-summary>small{font-size:11px;color:#ffe0d6;line-height:1.6}
+#guide .free-day{display:flex;gap:15px;align-items:start;padding:7px 0 14px}
+#guide .free-day-number{font-family:var(--serif);font-size:29px;color:#b78e7e}
+#guide .free-day b{font-size:12px;color:#553d3b}
+#guide .free-day p{font-size:11px;line-height:1.7;color:#80706f}
+#guide .itinerary-wrap{min-height:660px}
+@media(max-width:800px){#lingua .phrase-sidebar{margin-top:6px}#guide .itinerary-wrap{min-height:0}}
+@media(max-width:520px){#lingua .translation-card,#guide .planner-card,#guide .itinerary-wrap{padding:21px;border-radius:20px!important}#guide #dayChoices{gap:7px}#guide .days-custom-label{flex-wrap:wrap}#guide .days-custom-label span{margin-right:0}#guide .days-custom-label input{max-width:100%;width:100%}#guide .plan-actions{flex-wrap:wrap}}
+body.night #lingua .translation-card,body.night #lingua .phrase-sidebar,body.night #guide .planner-card,body.night #guide .itinerary-wrap{background:linear-gradient(140deg,rgba(57,44,49,.95),rgba(45,35,41,.91))!important;border-color:rgba(235,192,170,.25)!important;color:#f5e9e1!important}
+body.night #lingua .language-pair select,body.night #guide .full-select,body.night #lingua .input-zone,body.night #lingua .output-zone,body.night #guide .interest,body.night #guide .days-custom-label,body.night #guide #dayChoices .choice:not(.active),body.night #lingua .phrase-btn,body.night #guide .day-group{background:rgba(255,255,255,.08)!important;color:#f5e9e1!important;border-color:rgba(242,210,185,.19)!important}
+body.night #lingua .input-zone textarea,body.night #lingua .translated-text,body.night #lingua .phrase-btn b,body.night #guide .day-title,body.night #guide .free-day b{color:#fff1e7!important}
+body.night #guide .plan-placeholder{background:linear-gradient(135deg,#403139,#30272e)!important;color:#ffe9dc!important}
+body.night #guide .plan-placeholder h4,body.night #guide .itinerary-head h3,body.night #lingua .translator-title h3{color:#fff0e5!important}
+body.night #guide #interestChoices .interest.selected{background:rgba(159,63,74,.3)!important;color:#ffe9dc!important}
+body.night #guide .plan-actions button{color:#ffe9dc;background:rgba(255,255,255,.1)}

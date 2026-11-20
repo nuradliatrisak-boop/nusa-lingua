@@ -1,0 +1,1 @@
+NUSA LINGUA V24: penyempurnaan visual Lingua AI dan Nusa Guide. Durasi 1,2,3,5,7 atau custom 1–14 hari. Karena demo baru memuat 4 tempat, hari tambahan ditampilkan sebagai hari fleksibel, bukan destinasi fiktif. Jalankan npm start. Semua aset V23 dipertahankan.
